@@ -1,0 +1,99 @@
+body{
+  max-width: 100%;
+}
+
+
+p {
+  font-size: 18px;
+
+}
+
+
+#menu {
+background-color: black;
+color: white;
+text-transform: uppercase;
+font-size: 16px;
+font-family: Verdana, sans-serif;
+list-style-type: none;
+margin: -9px;
+padding: 16px;
+overflow: hidden;
+gap: 30px;
+
+}
+
+img {
+max-width: 100%;
+}
+
+#menu a {
+color: white;
+text-decoration: none;
+}
+
+#menu a:hover {
+background-color: white;
+color: black;
+}
+
+.card {
+font-size: 16px;
+width: 300px; /* Define a largura do card */
+height: 400px; /* Define a altura do card */
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+display: inline-block; /* Exibe os cards em linha */
+}
+
+
+
+.card img {
+width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
+height: 200px; /* Define a altura da imagem */
+object-fit: cover; /* Redimensiona a imagem para preencher a área, mantendo a proporção */
+border-radius: 5px;
+}
+
+.foto {
+  width: 300px; /* Define a largura do card */
+  height: 400px; /* Define a altura do card */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block; /* Exibe os cards em linha */
+  al
+}
+
+.foto img {
+  width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
+height: 200px; /* Define a altura da imagem */
+object-fit: cover; /* Redimensiona a imagem para preencher a área, mantendo a proporção */
+border-radius: 5px;;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+border: 1px solid gray;
+padding: 8px;
+}
+
+th {
+background-color: black;
+color: white;
+}
+
+#footer {
+background-color: black;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
